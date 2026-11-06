@@ -1,0 +1,21 @@
+{
+  "name": "redtixx",
+  "version": "0.1.0",
+  "description": "Create and edit Redtixx events and services through MCP.",
+  "author": {
+    "name": "REDTIXX"
+  },
+  "homepage": "https://github.com/namesEnded/redtixx-agent",
+  "repository": "https://github.com/namesEnded/redtixx-agent",
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "REDTIXX Agent",
+    "shortDescription": "Your workspace. Connected.",
+    "developerName": "REDTIXX",
+    "category": "Productivity",
+    "brandColor": "#FF003B",
+    "logo": "./assets/logo.svg"
+  },
+  "onboardingSkill": "./skills/setup/SKILL.md"
+}

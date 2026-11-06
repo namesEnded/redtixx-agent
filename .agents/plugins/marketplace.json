@@ -1,0 +1,12 @@
+{
+  "name": "redtixx-agent",
+  "interface": { "displayName": "REDTIXX" },
+  "plugins": [
+    {
+      "name": "redtixx",
+      "source": { "source": "local", "path": "./plugins/redtixx" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_USE" },
+      "category": "Productivity"
+    }
+  ]
+}
